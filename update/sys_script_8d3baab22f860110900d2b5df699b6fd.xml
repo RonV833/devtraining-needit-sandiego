@@ -45,23 +45,24 @@
  //  thisFunctionAlsoDoesNotExist();
 
 // getNum and setNum demonstrate JavaScript Closure
-var x = 7;
 
+var x = 7;
 function numFunc(){
-  var x = 10;
-  return{
-    getNum: function(){
-      return x;
-    },
-    setNum: function(newNum){
-      x = newNum;
-    }
-  };
+var x = 10;
+return{
+getNum: function(){
+return x;
+},
+setNum: function(newNum){
+x = newNum;
+}
+};
 }
 var callFunc = numFunc();
 callFunc.getNum();
 callFunc.setNum(2);
 callFunc.getNum();
+
 
 
 })(current, previous);]]></script>
@@ -71,7 +72,7 @@ callFunc.getNum();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8d3baab22f860110900d2b5df699b6fd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>NeedIt Debugging Practice</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -79,7 +80,7 @@ callFunc.getNum();
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_8d3baab22f860110900d2b5df699b6fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-09 08:06:51</sys_updated_on>
+        <sys_updated_on>2022-08-08 05:58:06</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
